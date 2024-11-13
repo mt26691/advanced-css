@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.container {
+    border: 2px dashed red;
+    padding: 1.5em;
+    font-size: 1.5 rem;
+    margin: 1.5em;
+}
