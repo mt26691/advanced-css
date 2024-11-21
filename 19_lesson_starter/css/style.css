@@ -7,6 +7,14 @@
   box-sizing: border-box;
 }
 
+/* || VARIABLES */
+:root {
+  --BGCOLOR: #475569;
+  --ALT-BGCOLOR: #1e293B;
+  --RADIAL-COLOR: whitesmoke;
+  --LIGHT-COLOR: whitesmoke;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -26,8 +34,8 @@ html {
 body {
   font: 1.5rem "Nunito", sans-serif;
   min-height: 100vh;
-  background-color: #475569;
-  background-image: radial-gradient(whitesmoke, #475569);
+  background-color: var(--BGCOLOR);
+  background-image: radial-gradient(var(--RADIAL-COLOR), var(--BGCOLOR));
   display: flex;
   flex-direction: column;
 }
@@ -35,8 +43,8 @@ body {
 header,
 footer {
   position: sticky;
-  background-color: #1e293b;
-  color: whitesmoke;
+  background-color: var(--ALT-BGCOLOR);
+  color: var(--RADIAL-COLOR);
   text-align: center;
 }
 
